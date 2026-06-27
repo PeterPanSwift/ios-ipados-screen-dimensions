@@ -1,0 +1,898 @@
+{
+  "source": "https://developer.apple.com/design/human-interface-guidelines/layout#iOS-iPadOS-device-screen-dimensions",
+  "source_data": "https://developer.apple.com/tutorials/data/design/human-interface-guidelines/layout.json",
+  "generated_at": "2026-06-27T16:05:46+00:00",
+  "orientation": "portrait",
+  "counts": {
+    "total": 59,
+    "iOS": 43,
+    "iPadOS": 16
+  },
+  "devices": [
+    {
+      "model": "iPad Pro 13-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 1032,
+          "height": 1376
+        },
+        "pixels": {
+          "width": 2064,
+          "height": 2752
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Pro 12.9-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 1024,
+          "height": 1366
+        },
+        "pixels": {
+          "width": 2048,
+          "height": 2732
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Pro 11-inch 5th and 6th generation",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 834,
+          "height": 1210
+        },
+        "pixels": {
+          "width": 1668,
+          "height": 2420
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Pro 11-inch 1st–4th generation",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 834,
+          "height": 1194
+        },
+        "pixels": {
+          "width": 1668,
+          "height": 2388
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Pro 10.5-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 834,
+          "height": 1112
+        },
+        "pixels": {
+          "width": 1668,
+          "height": 2224
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Pro 9.7-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 768,
+          "height": 1024
+        },
+        "pixels": {
+          "width": 1536,
+          "height": 2048
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Air 13-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 1024,
+          "height": 1366
+        },
+        "pixels": {
+          "width": 2048,
+          "height": 2732
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Air 11-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 820,
+          "height": 1180
+        },
+        "pixels": {
+          "width": 1640,
+          "height": 2360
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Air 10.9-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 820,
+          "height": 1180
+        },
+        "pixels": {
+          "width": 1640,
+          "height": 2360
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Air 10.5-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 834,
+          "height": 1112
+        },
+        "pixels": {
+          "width": 1668,
+          "height": 2224
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad Air 9.7-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 768,
+          "height": 1024
+        },
+        "pixels": {
+          "width": 1536,
+          "height": 2048
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad 11-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 820,
+          "height": 1180
+        },
+        "pixels": {
+          "width": 1640,
+          "height": 2360
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad 10.2-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 810,
+          "height": 1080
+        },
+        "pixels": {
+          "width": 1620,
+          "height": 2160
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad 9.7-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 768,
+          "height": 1024
+        },
+        "pixels": {
+          "width": 1536,
+          "height": 2048
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad mini 8.3-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 744,
+          "height": 1133
+        },
+        "pixels": {
+          "width": 1488,
+          "height": 2266
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPad mini 7.9-inch",
+      "platform": "iPadOS",
+      "portrait": {
+        "points": {
+          "width": 768,
+          "height": 1024
+        },
+        "pixels": {
+          "width": 1536,
+          "height": 2048
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone 17 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 440,
+          "height": 956
+        },
+        "pixels": {
+          "width": 1320,
+          "height": 2868
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 17 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 402,
+          "height": 874
+        },
+        "pixels": {
+          "width": 1206,
+          "height": 2622
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone Air",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 420,
+          "height": 912
+        },
+        "pixels": {
+          "width": 1260,
+          "height": 2736
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 17",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 402,
+          "height": 874
+        },
+        "pixels": {
+          "width": 1206,
+          "height": 2622
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 16 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 440,
+          "height": 956
+        },
+        "pixels": {
+          "width": 1320,
+          "height": 2868
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 16 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 402,
+          "height": 874
+        },
+        "pixels": {
+          "width": 1206,
+          "height": 2622
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 16 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 430,
+          "height": 932
+        },
+        "pixels": {
+          "width": 1290,
+          "height": 2796
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 16",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 393,
+          "height": 852
+        },
+        "pixels": {
+          "width": 1179,
+          "height": 2556
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 16e",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 15 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 430,
+          "height": 932
+        },
+        "pixels": {
+          "width": 1290,
+          "height": 2796
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 15 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 393,
+          "height": 852
+        },
+        "pixels": {
+          "width": 1179,
+          "height": 2556
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 15 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 430,
+          "height": 932
+        },
+        "pixels": {
+          "width": 1290,
+          "height": 2796
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 15",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 393,
+          "height": 852
+        },
+        "pixels": {
+          "width": 1179,
+          "height": 2556
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 14 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 430,
+          "height": 932
+        },
+        "pixels": {
+          "width": 1290,
+          "height": 2796
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 14 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 393,
+          "height": 852
+        },
+        "pixels": {
+          "width": 1179,
+          "height": 2556
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 14 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 428,
+          "height": 926
+        },
+        "pixels": {
+          "width": 1284,
+          "height": 2778
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 14",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 13 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 428,
+          "height": 926
+        },
+        "pixels": {
+          "width": 1284,
+          "height": 2778
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 13 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 13",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 13 mini",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 360,
+          "height": 780
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 2340
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 12 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 428,
+          "height": 926
+        },
+        "pixels": {
+          "width": 1284,
+          "height": 2778
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 12 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 12",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        },
+        "pixels": {
+          "width": 1170,
+          "height": 2532
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 12 mini",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 360,
+          "height": 780
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 2340
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 11 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 896
+        },
+        "pixels": {
+          "width": 1242,
+          "height": 2688
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 11 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 812
+        },
+        "pixels": {
+          "width": 1125,
+          "height": 2436
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 11",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 896
+        },
+        "pixels": {
+          "width": 828,
+          "height": 1792
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone XS Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 896
+        },
+        "pixels": {
+          "width": 1242,
+          "height": 2688
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone XS",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 812
+        },
+        "pixels": {
+          "width": 1125,
+          "height": 2436
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone XR",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 896
+        },
+        "pixels": {
+          "width": 828,
+          "height": 1792
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone X",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 812
+        },
+        "pixels": {
+          "width": 1125,
+          "height": 2436
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 8 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 736
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 1920
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 8",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 667
+        },
+        "pixels": {
+          "width": 750,
+          "height": 1334
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone 7 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 736
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 1920
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 7",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 667
+        },
+        "pixels": {
+          "width": 750,
+          "height": 1334
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone 6s Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 736
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 1920
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 6s",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 667
+        },
+        "pixels": {
+          "width": 750,
+          "height": 1334
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone 6 Plus",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 414,
+          "height": 736
+        },
+        "pixels": {
+          "width": 1080,
+          "height": 1920
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 6",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 667
+        },
+        "pixels": {
+          "width": 750,
+          "height": 1334
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone SE 4.7-inch",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 375,
+          "height": 667
+        },
+        "pixels": {
+          "width": 750,
+          "height": 1334
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPhone SE 4-inch",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 320,
+          "height": 568
+        },
+        "pixels": {
+          "width": 640,
+          "height": 1136
+        },
+        "scale": 2
+      }
+    },
+    {
+      "model": "iPod touch 5th generation and later",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 320,
+          "height": 568
+        },
+        "pixels": {
+          "width": 640,
+          "height": 1136
+        },
+        "scale": 2
+      }
+    }
+  ]
+}
