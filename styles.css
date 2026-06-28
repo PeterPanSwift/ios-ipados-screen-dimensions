@@ -100,6 +100,43 @@ button {
   text-decoration: none;
 }
 
+.topbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.language-switch {
+  display: flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(247, 245, 239, 0.62);
+}
+
+.language-option {
+  padding: 6px 10px;
+  color: var(--muted);
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 750;
+  transition: 160ms ease;
+}
+
+.language-option:hover {
+  color: var(--ink);
+}
+
+.language-option.is-active {
+  color: white;
+  background: var(--blue);
+  box-shadow: 0 4px 12px rgba(75, 102, 232, 0.22);
+}
+
 .brand {
   gap: 11px;
   font-size: 15px;
@@ -477,6 +514,7 @@ h2 {
 }
 
 .filter:focus-visible,
+.language-option:focus-visible,
 a:focus-visible {
   outline: 3px solid rgba(75, 102, 232, 0.4);
   outline-offset: 3px;
@@ -516,6 +554,12 @@ th span {
   margin-left: 5px;
   color: rgba(102, 116, 120, 0.55);
   font-size: 9px;
+}
+
+th .column-label {
+  margin-left: 0;
+  color: inherit;
+  font-size: inherit;
 }
 
 tbody tr {
@@ -740,6 +784,19 @@ td:first-child {
     height: 72px;
   }
 
+  .topbar__actions {
+    gap: 5px;
+  }
+
+  .language-option {
+    padding: 6px 8px;
+  }
+
+  .source-link {
+    padding: 8px 9px;
+    letter-spacing: 0.02em;
+  }
+
   .hero {
     padding-right: 22px;
     padding-left: 22px;
@@ -815,7 +872,7 @@ td:first-child {
     padding-left: 14px;
   }
 
-  th span,
+  .point-label,
   .dimension__glyph {
     display: none;
   }
