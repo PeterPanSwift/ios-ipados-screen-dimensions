@@ -4,8 +4,8 @@
   "generated_at": "2026-06-27T16:05:46+00:00",
   "orientation": "portrait",
   "counts": {
-    "total": 59,
-    "iOS": 43,
+    "total": 60,
+    "iOS": 44,
     "iPadOS": 16
   },
   "devices": [
@@ -307,6 +307,16 @@
           "height": 2622
         },
         "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 17e",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 390,
+          "height": 844
+        }
       }
     },
     {
