@@ -14,8 +14,8 @@ const translations = {
     sizesLabel: "種尺寸",
     sectionLabel: "01 / Dimensions",
     catalogTitle: "依尺寸分組",
-    searchLabel: "搜尋裝置名稱",
-    searchPlaceholder: "搜尋裝置名稱",
+    searchLabel: "搜尋裝置名稱或尺寸",
+    searchPlaceholder: "搜尋名稱或尺寸",
     clearSearchLabel: "清除搜尋",
     filterLabel: "依平台篩選",
     filterAll: "全部",
@@ -26,7 +26,7 @@ const translations = {
     loadErrorTitle: "無法讀取裝置資料",
     dimensionUnit: "points · 直向",
     emptyTitle: "找不到符合的裝置",
-    emptyHint: "請嘗試其他名稱，或切換平台篩選。",
+    emptyHint: "請嘗試其他名稱、point 尺寸，或切換平台篩選。",
     dateUnavailable: "更新日期未提供",
     generatedAt: "資料產生於 {date}",
     fileError: "請透過本機 HTTP 伺服器開啟網頁，例如執行 python3 -m http.server 8000。",
@@ -48,8 +48,8 @@ const translations = {
     sizesLabel: "screen sizes",
     sectionLabel: "01 / Dimensions",
     catalogTitle: "Grouped by size",
-    searchLabel: "Search device names",
-    searchPlaceholder: "Search device names",
+    searchLabel: "Search device names or sizes",
+    searchPlaceholder: "Search by name or size",
     clearSearchLabel: "Clear search",
     filterLabel: "Filter by platform",
     filterAll: "All",
@@ -60,7 +60,7 @@ const translations = {
     loadErrorTitle: "Unable to load device data",
     dimensionUnit: "points · portrait",
     emptyTitle: "No matching devices",
-    emptyHint: "Try another name or change the platform filter.",
+    emptyHint: "Try another name, point size, or platform filter.",
     dateUnavailable: "Update date unavailable",
     generatedAt: "Data generated on {date}",
     fileError: "Open this page through a local HTTP server, such as python3 -m http.server 8000.",
@@ -212,13 +212,36 @@ function createRow(group) {
   return row;
 }
 
+function matchesPointSize(points, query) {
+  if (!points || !/^[\d\sx×*]+$/i.test(query)) {
+    return false;
+  }
+
+  const numbers = query.match(/\d+/g) ?? [];
+  const width = String(points.width);
+  const height = String(points.height);
+
+  if (numbers.length === 1) {
+    return width.includes(numbers[0]) || height.includes(numbers[0]);
+  }
+  if (numbers.length === 2) {
+    return (
+      (width.includes(numbers[0]) && height.includes(numbers[1])) ||
+      (width.includes(numbers[1]) && height.includes(numbers[0]))
+    );
+  }
+  return false;
+}
+
 function filteredDevices() {
   const query = state.query.trim().toLocaleLowerCase("en");
   return state.data.devices.filter((device) => {
     const matchesPlatform =
       state.platform === "all" || device.platform === state.platform;
     const matchesQuery =
-      query === "" || device.model.toLocaleLowerCase("en").includes(query);
+      query === "" ||
+      device.model.toLocaleLowerCase("en").includes(query) ||
+      matchesPointSize(device?.portrait?.points, query);
     return matchesPlatform && matchesQuery;
   });
 }
