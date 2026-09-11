@@ -4,8 +4,8 @@
   "generated_at": "2026-06-27T16:05:46+00:00",
   "orientation": "portrait",
   "counts": {
-    "total": 60,
-    "iOS": 44,
+    "total": 62,
+    "iOS": 46,
     "iPadOS": 16
   },
   "devices": [
@@ -247,6 +247,36 @@
           "height": 2048
         },
         "scale": 2
+      }
+    },
+    {
+      "model": "iPhone 18 Pro Max",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 440,
+          "height": 956
+        },
+        "pixels": {
+          "width": 1320,
+          "height": 2868
+        },
+        "scale": 3
+      }
+    },
+    {
+      "model": "iPhone 18 Pro",
+      "platform": "iOS",
+      "portrait": {
+        "points": {
+          "width": 402,
+          "height": 874
+        },
+        "pixels": {
+          "width": 1206,
+          "height": 2622
+        },
+        "scale": 3
       }
     },
     {
